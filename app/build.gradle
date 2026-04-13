@@ -1,15 +1,11 @@
-plugins {
-    id 'com.android.application'
-}
-
 android {
     namespace 'com.hamster.hamchart'
-    compileSdk 33
+    compileSdk 34 // Обновил до актуальной версии
 
     defaultConfig {
         applicationId "com.hamster.hamchart"
-        minSdk 21
-        targetSdk 33
+        minSdk 21     // Поддержка Android 5.0+ (99% устройств)
+        targetSdk 34
         versionCode 1
         versionName "1.0"
     }
